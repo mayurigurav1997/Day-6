@@ -46,6 +46,10 @@ if(value === 4) {
       console.log("I couldn't figure out");
 }
 
+let login = 'Employee';
+let message = (login == 'Employee') ? 'Greetings Employee' :(login == 'Director') ? 'Greetings Director' :(login == '') ? 'No login' :'';
+console.log(message);
+
 if (null || 2 || undefined )
 {
  let message = "welcome boss";
